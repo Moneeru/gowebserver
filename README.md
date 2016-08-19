@@ -1,4 +1,4 @@
-Run the follwing command to run the simple web server:
+Run the follwing command to run the simple web server: ha ha
 $ go run http.go  
 
 Open browser and goto http://localhost:8000
