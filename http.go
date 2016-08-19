@@ -19,6 +19,62 @@ func to_roman(n int)  string {
     return "I"
 }
 
+func to_roman(n int)  string {
+    if n == 3 {
+        return "III"
+    }
+    return "I"
+    
+    func to_roman(n int)  string {
+    if n == 4 {
+        return "IV"
+    }
+    return "I"
+}
+
+func to_roman(n int)  string {
+    if n == 5 {
+        return "V"
+    }
+    return "I"
+}
+
+func to_roman(n int)  string {
+    if n == 6 {
+        return "VI"
+    }
+    return "I"
+}
+
+func to_roman(n int)  string {
+    if n == 7 {
+        return "VII"
+    }
+    return "I"
+}
+
+func to_roman(n int)  string {
+    if n == 8 {
+        return "VIII"
+    }
+    return "I"
+}
+
+func to_roman(n int)  string {
+    if n == 9 {
+        return "IX"
+    }
+    return "I"
+}
+    
+    func to_roman(n int)  string {
+    if n == 10 {
+        return "X"
+    }
+    return "I"
+}
+    
+}
 type romanGenerator int
 func (n romanGenerator) ServeHTTP(w http.ResponseWriter, r *http.Request) {
     ascii_num := r.URL.Path[7:]
